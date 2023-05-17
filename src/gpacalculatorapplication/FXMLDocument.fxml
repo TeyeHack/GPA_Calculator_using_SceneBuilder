@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: lightgrey;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gpacalculatorapplication.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="217.0" fitWidth="225.0" layoutX="199.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/gpaimage.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="268.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="29.0" prefWidth="82.0" style="-fx-background-color: #EB9411; -fx-background-radius: 20px;" text="Start" textFill="#fafafa">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Text layoutX="448.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #EB9411;" text="\@Developer_Addico">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
